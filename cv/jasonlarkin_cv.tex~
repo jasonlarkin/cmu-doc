@@ -50,11 +50,7 @@
 \href{http://jasonlarkin.github.io}{http://jasonlarkin.github.io} }
 
 \header{Career Overview and Objective}
-I have extensive experience performing experimental and numerical studies 
-in condensed matter physics. I am interested in multi-language development for applications ranging from high-performance parallel computing to smart 
-phones. I am interested in open-source collaboration and development 
-to improve the way research is performed and the 
-way results are disseminated.
+I have extensive experience performing experimental and numerical studies in condensed matter physics. My interests include multi-language development for applications ranging from high-performance parallel computing to smart phones, and open-source collaboration to improve the way research is performed and the way results are disseminated.
 
 \header{Education}
 
@@ -108,8 +104,8 @@ Research: }
 
 \employer{Precision Therapeutics}{2006-2007}{Intern-Technology Development}
 	\begin{achievements}
-	\item Worked with team of software developers and laboaratory equipment specialists.
-	\item Used CADD to design and fabricate components of optical micrscopes and laboratory automation controls. 
+	\item Worked with team of software developers and laboratory equipment specialists.
+	\item Used CADD to design and fabricate components of optical microscopes and laboratory automation controls. 
 	\end{achievements}
 
 \header{Skills}
@@ -136,7 +132,7 @@ calculations on the \href{http://www.hpcmo.hpc.mil/cms2/index.php}{DOD's HPCMP}.
 
 \item \href{https://github.com/jasonlarkin/disorder}{disorder}: a comprehensive repository of open-source code and data from my PhD thesis, hosted on Github.
 
-\item \href{https://github.com/ntpl/ntpy}{ntpy}: created this open-source  collaborative effor between members of \href{http://ntpl.me.cmu.edu/}{NTPL} and \href{http://www.mie.utoronto.ca/labs/atoms/}{University of Toronto}.
+\item \href{https://github.com/ntpl/ntpy}{ntpy}: created this open-source  collaborative effort between members of \href{http://ntpl.me.cmu.edu/}{NTPL} and \href{http://www.mie.utoronto.ca/labs/atoms/}{University of Toronto}.
 
 \item \href{http://projects.ivec.org/gulp/}{GULP}: international collaboration with \href{http://nanochemistry.curtin.edu.au/people/staff.cfm/J.Gale}{Julian Gale} at the 
 \href{http://nanochemistry.curtin.edu.au/}{Nanochemistry Research Institute} at \href{http://www.curtin.edu.au/}{Curtin University}.
@@ -147,23 +143,23 @@ calculations on the \href{http://www.hpcmo.hpc.mil/cms2/index.php}{DOD's HPCMP}.
 
 \header{\href{http://jasonlarkin.github.io/pub.html}{Publications} (selected)}
 \begin{achievements}
-\item J. Larkin, "Origin of the Exceptionally Low Thermal Conductivity of PCBM Films", (in progress).
-\item J. Larkin, "Decorrelating a Compressible Turbulent Flow: an Experiment", Phys. Rev. E 82, 016301 (2010).
+\item "Origin of the Exceptionally Low Thermal Conductivity of fullerene derivative  PCBM Films", (in progress).
+\item "Decorrelating a Compressible Turbulent Flow: an Experiment", \href{http://pre.aps.org/abstract/PRE/v82/i1/e016301}{Phys. Rev. E 82, 016301 (2010).}
 \end{achievements}
 
 \header{\href{http://jasonlarkin.github.io/pres.html}{Presentations} (selected)}
 \begin{achievements}
 \item "Evaluation of the Virtual Crystal Approximation for Predicting Thermal Conductivity", J.M. Larkin (speaker), A.J.H.
-   McGaughey, presented at 2013 MRS Spring Meeting San Francisco, CA.
-\item "The Generalized Fractal Dimensions of a 2-D Compressible Turbulence", J. Larkin (speaker), M. Bandi, W. Goldburg, 2008 American Physical Society March Meeting New Orleans, LA.
+   McGaughey, \href{http://www.mrs.org/spring2013/}{2013 MRS Spring Meeting} San Francisco, CA.
+\item "The Generalized Fractal Dimensions of a 2-D Compressible Turbulence", J. Larkin (speaker), M. Bandi, W. Goldburg, \href{http://meetings.aps.org/Meeting/MAR08/Content/1017}{2008 American Physical Society March Meeting} New Orleans, LA.
 \end{achievements}
 
 
 \header{Honors}
 \begin{achievements}
-\item 2012 ASME MHNMT International Summer Heat Transfer Conference Top 5 Technical Paper
-\item \href{http://www.cmu.edu/me/news/archive/2011/bennett-conference.html}{2011 Bennet Conference Best Presentation}
-\item 2010-2011 \href{http://www.ices.cmu.edu/northrop-grumman.asp}{ICES Northrop-Grumann Fellow}
+\item \href{http://www.asmeconferences.org/HT2012/}{2012 ASME MHNMT International Summer Heat Transfer Conference} Top 5 Technical Paper
+\item \href{http://www.cmu.edu/me/news/archive/2011/bennett-conference.html}{2011 Bennett Conference Best Presentation}
+\item \href{www.ices.cmu.edu/downloads/inews/iNews-Fall-2011.pdf‎}{2011 ICES Northrop-Gruman Fellow}
 \item 2007-2009 NSF Graduate Student Research Grant University of Pittsburgh Deptartment of Physics.
 \end{achievements}
 

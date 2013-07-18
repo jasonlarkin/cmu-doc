@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=latex 2013.4.23)  18 JUL 2013 10:40
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=latex 2013.4.23)  18 JUL 2013 11:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -321,33 +321,33 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 51.
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <9> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 61.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 57.
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <9> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 66.
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 62.
 LaTeX Font Info:    Font shape `OT1/phv/bx/it' in size <9> not available
-(Font)              Font shape `OT1/phv/b/it' tried instead on input line 94.
+(Font)              Font shape `OT1/phv/b/it' tried instead on input line 90.
 LaTeX Font Info:    Font shape `OT1/phv/b/it' in size <9> not available
-(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 94.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 177.
+(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 90.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 173.
  [1
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 177.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 173.
 
 (./jasonlarkin_cv.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 177.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 177.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 173.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 173.
 Package rerunfilecheck Info: File `jasonlarkin_cv.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 177.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 173.
  ) 
 Here is how much of TeX's memory you used:
  5563 strings out of 495060
  79745 string characters out of 3182053
- 172612 words of memory out of 3000000
+ 173612 words of memory out of 3000000
  8719 multiletter control sequences out of 15000+200000
  12935 words of font info for 38 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 29i,4n,32p,361b,320s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 29i,4n,32p,363b,320s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on jasonlarkin_cv.dvi (1 page, 15288 bytes).
+Output written on jasonlarkin_cv.dvi (1 page, 16260 bytes).
