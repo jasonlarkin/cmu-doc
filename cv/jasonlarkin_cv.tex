@@ -4,6 +4,7 @@
 \usepackage{amssymb}
 \usepackage{hyperref}
 \usepackage{helvet}
+\usepackage[margin=0.75in]{geometry}
 \renewcommand{\familydefault}{\sfdefault}
 \textheight=10in
 \pagestyle{empty}
@@ -18,7 +19,7 @@
 \newcommand{\area}[2]{\vspace*{-9pt} \begin{verse}\textbf{#1}   #2 \end{verse}  }
 \newcommand{\lineunder}{\vspace*{-8pt} \\ \hspace*{-18pt} \hrulefill \\}
 \newcommand{\header}[1]{{\hspace*{-15pt}\vspace*{6pt} \textsc{#1}} \vspace*{-6pt} \lineunder}
-\newcommand{\employer}[3]{{ \textbf{#1} (#2)\\ \underline{\textbf{\emph{#3}}}\\  }}
+\newcommand{\employer}[3]{{ \textbf{#1} (#2) \underline{\textbf{\emph{#3}}}\\  }}
 \newcommand{\contact}[3]{
 \vspace*{-8pt}
 \begin{center}
@@ -29,14 +30,12 @@
 \vspace*{-8pt}
 }
 \newenvironment{achievements}{\begin{list}{$\bullet$}{\topsep 0pt \itemsep -2pt}}{\vspace*{4pt}\end{list}}
-\newcommand{\schoolwithcourses}[4]{
+\newcommand{\schoolwithcourses}[3]{
  \textbf{#1} #2 $\bullet$ #3\\ 
-#4 $\bullet$  Selected Coursework:\\
 \vspace*{5pt}
 }
-\newcommand{\school}[4]{
- \textbf{#1} #2 $\bullet$ #3\\ 
-#4 \\
+\newcommand{\school}[3]{
+ \textbf{#1} #2 $\bullet$ #3\\
 }
 % END RESUME DEFINITIONS
 
@@ -46,109 +45,132 @@
 \smallskip
 \vspace*{-44pt}
 
-\contact{\href{http://jasonlarkin.github.io}{Jason M. Larkin}}
+\contact{\href{http://jasonlarkin.github.io}{Jason M Larkin}}
 {4763 Sherwood Dr, Pittsburgh PA 15236 $\bullet$ (412) 398-8813 $\bullet$ \href{mailto:jasonlarkin84@gmail.com}{jasonlarkin84@gmail.com} $\bullet$ 
 \href{http://jasonlarkin.github.io}{http://jasonlarkin.github.io} }
 
-\header{Career Objective}
-
+\header{Career Overview and Objective}
 I have extensive experience performing experimental and numerical studies 
-of condensed matter physics.
-
-I am interested in multi-language development for computing 
-applications ranging from high-performance parallel computing to smart 
-phone applications. 
-
-I am interested in open-source collaboration and development.
-
-I am interested in improving the way research is performed and the 
+in condensed matter physics. I am interested in multi-language development for applications ranging from high-performance parallel computing to smart 
+phones. I am interested in open-source collaboration and development 
+to improve the way research is performed and the 
 way results are disseminated.
-
-google+: social research
-
-data mining: extract data structure from .pdf
-
-chromebook: standard research laptop
-
-Reduce the time to perform research:
-
-2 variables:
-
-1) quality of the researcher
-2) quality of the tools
-
-
 
 \header{Education}
 
-\schoolwithcourses{The Johns Hopkins Univesity}{Baltimore, MD, U.S.A.}{Bachelor of Science in Computer Sci., 2006}
-{Cumulative GPA: 3.84/4.00}
-	\area{Computer Science}{ Unix Programming $\cdot$ Data Structures $\cdot$ Automata \& Computation $\cdot$ Computer System
-Fundamentals $\cdot$ Computer Networks $\cdot$ Info Retrieval and Web Agents $\cdot$ Operating Systems $\cdot$
-Natural Lang Processing $\cdot$ Algorithms $\cdot$ Object Oriented Systems $\cdot$ Declarative Methods $\cdot$
-Artificial Intelligence $\cdot$ Network Security $\cdot$ Databases}
-	\area{Mathematics}{Multivariable Calculus $\cdot$ Linear Algebra $\cdot$ Discrete Math $\cdot$ Math Models}
+\schoolwithcourses{Carnegie Mellon University}{Pittsburgh, PA}{PhD Mechanical Engineering, 2013 GPA: 3.85/4.00}
 
-\header{Work History}
-\employer{Bloomberg L.P. - Research and Development}{2005}{Software Engineer}
+\area{
+Thesis: \href{http://jasonlarkin.github.io/projects-phd.html}
+{Thermal Modeling of Disordered Materials.}}
+{Numerically investigated thermal properties of crystal alloys, glasses, and organic materials using classical and \emph{ab initio}-based atomistic techniques.} 
+
+\area{Coursework:}
+{
+molecular/electron structure $\cdot$ nanoscale transport phenomena $\cdot$ numerical methods
+}
+
+\schoolwithcourses{University of Pittsburgh}{Pittsburgh, PA}{MS Mechanical Engineering, 2009 GPA: 3.70/4.00}
+
+\area{
+Thesis: \href{http://jasonlarkin.github.io/projects-ms.html}
+{Statistics of Particle Concentrations in Free-Surface Turbulence.}}
+{Performed experiments using novel 2D and 3D flow configurations to study turbulence 
+as a nonlinear dynamical system.}
+
+\area{Coursework:}
+{
+quantum and statistical physics $\cdot$ turbulence $\cdot$ chaos and nonlinear phenomena
+}
+
+\schoolwithcourses{University of Pittsburgh}{Pittsburgh, PA}{BS Mechanical Engineering, 2007 GPA: 3.20/4.00}
+
+\area{
+Research: }
+{Used computational fluid dynamics to design a model arterial bifurcation for \emph{in vivo} study.}
+
+\header{Experience}
+
+\employer{Carnegie Mellon University}{2010-2012}{Teaching Assistant-Heat Transfer}
 	\begin{achievements}
-	\item Designed and developed an SQL abstraction layer and command-line interface over the proprietary db.
-	\item Established a library to enable integration and standardization of the Python language into the Bloomberg
-	\item Development Environment. Ported and rewrote legacy code in Python.
-	\item Designed and developed a new standard for GUI specification and Client-Server interaction.
-	\item Coded an automated data-miner capable of producing graphics-rich reports of product usage statistics.
+	\item Topics in conduction, convection, and radiation. Supervised recitations and substituted for lectures. 
 	\end{achievements}
 
-\employer{The Johns Hopkins University - Department of Computer Science}{2003}{Head Course Assistant for 600.113 Internet}
+\employer{University of Pittsburgh}{2008}{Teaching Assistant-Advanced Fluid Mechanics}
 	\begin{achievements}
-	\item Instructed hands-on web design skills, ranging from basic HTML, to Database-driven websites, to interactive content. Organized the course as a head Course Assistant, held office hours, assigned grades.
+	\item Topics in viscous flow, boundary layer theory, and scale similarity. 
 	\end{achievements}
 
-\employer{Cyprus National Guard - Information Technology Branch}{during army service 2000-2002} {Web Designer, Programmer, Network Administrator}
+\employer{University of Pittsburgh}{2007-2009}{Lecturer-Physics}
 	\begin{achievements}
-	\item Designed and programmed the website for the Cyprus National Guard. Collaborated with a small team of both officers and drafted personnel for the website and other major projects.
-	\item Headed the design and programming of a secure and efficient document retrieval server, client, and GUI.
-	\item Drafted the security policies for numerous Army servers and administered the network infrastructure.
-	\item Tutored web design (HTML and ASP) to officers. Took part in a team effort to promote Linux usage.
+	\item Lectured to students and faculty on mathematics, bio-physics, turbulence, statistical and nonlinear phenomena. 
 	\end{achievements}
 
-\employer{Prolix Corporation}{incorporated 2001}{90\% Owner, Programmer and Web Designer}
+\employer{Precision Therapeutics}{2006-2007}{Intern-Technology Development}
 	\begin{achievements}
-	\item Created Prolix, a server side application for rapid deployment and management of database intensive websites, and used it to develop websites by contractual agreement.
-	\item Retailed hardware and software after agreement with Multitech Corp., the largest regional importer.
-	\item Collaborated with fellow Fulbright scholars to design a flexible media appliance.
-	\end{achievements}
-
-\employer{University of Cyprus - MRDL (Multimedia Research and Development Laboratory)}{1999}
-	{Web Designer}
-	\begin{achievements}
-	\item Designed websites for the university research project intranet-extranet websites.
-	\item Collaborated with the MRDL Team and proposed and presented changes to existing websites.
-	\end{achievements}
-
-\employer{Hawker Website Creations}{1999}{49\% Partner, Programmer and Web Designer}
-	\begin{achievements}
-	\item Designed a gaming community website for the leading Internet Service Provider in Cyprus, Cytanet.
-	\item Created HawkerCart (flat DB and MySQL versions), applications for rapid creation of e-commerce sites.
-	\end{achievements}
-	\employer{MCM Developments}{1995 - 1998}{Computer-Aided Architectural Designer}
-	\begin{achievements}
-	\item Designed a 150-house complex (Agros, Cyprus) and a multi-tower complex (Odessa, Ukraine.)
+	\item Worked with team of software developers and laboaratory equipment specialists.
+	\item Used CADD to design and fabricate components of optical micrscopes and laboratory automation controls. 
 	\end{achievements}
 
 \header{Skills}
 \begin{achievements}
-\item Proficiency in software development in Java, Python, C, C++, C\#, Perl, Assembly, Visual Basic.
-\item Familiarity with Regular Expressions, Threads, Sockets, Database Design, SQL, JSP, ASP, \LaTeX
-\item Familiarity with UNIX, GNU/Linux, Win32.
+
+\item \textbf{Computing Languages:} Matlab, Fortran, Python, C/C++, Java, \LaTeX, Shell, Perl, Markdown, HTML.
+
+\item \textbf{High-Performance Computing:} linux/unix cluster administration/computing, parallel computation (MPI, OpenMP), mixed-language development, open-source development (Git, \href{http://github.com/jasonlarkin}{Github}, \href{http://arxiv.org/find/physics/1/au:+Larkin_J/0/1/0/all/0/1}{arXiv}).
+
+\item \textbf{General Computing:} linux/unix, Mac OS, Windows, Microsoft Office.
+
+\item \textbf{Modeling:} atomistic simulation, quantum chemistry, nanoscale transport, statistical and nonlinear systems.
+
+\item \textbf{Hardware:} general computing, optics/lasers, DI/DO AI/AO interfaces, simple automation, machining, circuitry. 
 \end{achievements}
 
-\header{Honors and Awards}
+\header{Projects}
 \begin{achievements}
-\item  Awarded the 2005 Computer Science Outstanding Undergraduate Award.
-\item Honored with the prestigious CASP Undergraduate Scholarship from the Cyprus Fulbright Commission.
-\item  Awarded the First Prize in English Poetry from The English School, Nicosia, Cyprus.
-\item Included in the Dean's List of Students, for all six completed semesters at the Johns Hopkins University.
+
+\item \href{http://ntpl.me.cmu.edu/research.html}{Quantum Mechanics-Driven Prediction of Nanostructure Thermal Conductivity}:
+served as investigator under the 
+\href{http://www.wpafb.af.mil/afrl/afosr/}{AFOSR} with collaborators at Carnegie Mellon and Univ. of Pitt., performing 
+calculations on the \href{http://www.hpcmo.hpc.mil/cms2/index.php}{DOD's HPCMP}.
+
+\item \href{https://github.com/jasonlarkin/disorder}{disorder}: a comprehensive repository of open-source code and data from my PhD thesis, hosted on Github.
+
+\item \href{https://github.com/ntpl/ntpy}{ntpy}: created this open-source  collaborative effor between members of \href{http://ntpl.me.cmu.edu/}{NTPL} and \href{http://www.mie.utoronto.ca/labs/atoms/}{University of Toronto}.
+
+\item \href{http://projects.ivec.org/gulp/}{GULP}: international collaboration with \href{http://nanochemistry.curtin.edu.au/people/staff.cfm/J.Gale}{Julian Gale} at the 
+\href{http://nanochemistry.curtin.edu.au/}{Nanochemistry Research Institute} at \href{http://www.curtin.edu.au/}{Curtin University}.
+
+\item \href{http://jasonlarkin.github.io/projects-ms.html}{Statistics of Free-Surface Turbulence}: international collaboration with \href{http://perso.ens-lyon.fr/alain.pumir/Pumir_webpage.html}{Alain Pumir} at \href{http://www.ens-lyon.eu/annuaire/m-pumir-alain-83656.kjsp?RH=ZYZYZYZYZYZYZYZYZYZYZY}{ENS Lyon}, France.
+
+\end{achievements}
+
+\header{\href{http://jasonlarkin.github.io/pub.html}{Publications} (selected)}
+\begin{achievements}
+\item J. Larkin, "Origin of the Exceptionally Low Thermal Conductivity of PCBM Films", (in progress).
+\item J. Larkin, "Decorrelating a Compressible Turbulent Flow: an Experiment", Phys. Rev. E 82, 016301 (2010).
+\end{achievements}
+
+\header{\href{http://jasonlarkin.github.io/pres.html}{Presentations} (selected)}
+\begin{achievements}
+\item "Evaluation of the Virtual Crystal Approximation for Predicting Thermal Conductivity", J.M. Larkin (speaker), A.J.H.
+   McGaughey, presented at 2013 MRS Spring Meeting San Francisco, CA.
+\item "The Generalized Fractal Dimensions of a 2-D Compressible Turbulence", J. Larkin (speaker), M. Bandi, W. Goldburg, 2008 American Physical Society March Meeting New Orleans, LA.
+\end{achievements}
+
+
+\header{Honors}
+\begin{achievements}
+\item 2012 ASME MHNMT International Summer Heat Transfer Conference Top 5 Technical Paper
+\item \href{http://www.cmu.edu/me/news/archive/2011/bennett-conference.html}{2011 Bennet Conference Best Presentation}
+\item 2010-2011 \href{http://www.ices.cmu.edu/northrop-grumman.asp}{ICES Northrop-Grumann Fellow}
+\item 2007-2009 NSF Graduate Student Research Grant University of Pittsburgh Deptartment of Physics.
+\end{achievements}
+
+\header{Memberships}
+\begin{achievements}
+\item American Physical Society $\cdot$ American Society of Mechanical Engineers 
+$\cdot$ Materials Research Society $\cdot$ Society of Industrial and Applied Mathematics $\cdot$ DOD High Performance Computing Modernization Program
 \end{achievements}
 
 
