@@ -125,14 +125,14 @@ Research: }
 \header{Projects}
 \begin{achievements}
 
-\item \href{http://ntpl.me.cmu.edu/research.html}{Quantum Mechanics-Driven Prediction of Nanostructure Thermal Conductivity}:
+\item \textbf{\href{http://ntpl.me.cmu.edu/research.html}{Quantum Mechanics-Driven Prediction of Nanostructure Thermal Conductivity}:}
 served as investigator under the 
 \href{http://www.wpafb.af.mil/afrl/afosr/}{AFOSR} with collaborators at Carnegie Mellon and Univ. of Pitt., performing 
 calculations on the \href{http://www.hpcmo.hpc.mil/cms2/index.php}{DOD's HPCMP}.
 
-\item \href{https://github.com/jasonlarkin/disorder}{disorder}: a comprehensive repository of open-source code and data from my PhD thesis, hosted on Github.
+\item \textbf{\href{https://github.com/jasonlarkin/disorder}{disorder}:} a comprehensive repository of open-source code and data from my PhD thesis, hosted on Github.
 
-\item \href{https://github.com/ntpl/ntpy}{ntpy}: created this open-source  collaborative effort between members of \href{http://ntpl.me.cmu.edu/}{NTPL} and \href{http://www.mie.utoronto.ca/labs/atoms/}{University of Toronto}.
+\item \textbf{\href{https://github.com/ntpl/ntpy}{ntpy}:} created this open-source  collaborative effort between members of \href{http://ntpl.me.cmu.edu/}{NTPL} and \href{http://www.mie.utoronto.ca/labs/atoms/}{University of Toronto}.
 
 \item \href{http://projects.ivec.org/gulp/}{GULP}: international collaboration with \href{http://nanochemistry.curtin.edu.au/people/staff.cfm/J.Gale}{Julian Gale} at the 
 \href{http://nanochemistry.curtin.edu.au/}{Nanochemistry Research Institute} at \href{http://www.curtin.edu.au/}{Curtin University}.
@@ -143,7 +143,7 @@ calculations on the \href{http://www.hpcmo.hpc.mil/cms2/index.php}{DOD's HPCMP}.
 
 \header{\href{http://jasonlarkin.github.io/pub.html}{Publications} (selected)}
 \begin{achievements}
-\item "Origin of the Exceptionally Low Thermal Conductivity of fullerene derivative  PCBM Films", (in progress).
+\item "Origin of the Exceptionally Low Thermal Conductivity of Fullerene Derivative  PCBM Films", (in progress).
 \item "Decorrelating a Compressible Turbulent Flow: an Experiment", \href{http://pre.aps.org/abstract/PRE/v82/i1/e016301}{Phys. Rev. E 82, 016301 (2010).}
 \end{achievements}
 
