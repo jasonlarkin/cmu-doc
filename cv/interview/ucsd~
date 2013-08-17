@@ -1,0 +1,179 @@
+
+	"The emphasis will be on working closely with researchers who are struggling to deal with large amounts of simulation, experimental or sensor data." 
+
+My entire PhD has been numerical, running massively parallel MD simulations, LD calculations, and DFT calculations.
+
+My MS also involved data intensive work, including 10s GB of high-speed video images, image processing, and 
+particle track reconstruction. 
+
+	"This work will involve a combination of activities including writing, running, debugging, compiling, porting, optimizing and benchmarking applications." 
+
+I have a list of packages I have used in my thesis appendix.  
+
+Ubuntu/linux specific: too many to list.
+
+quantum chemistry/molecular modeling: GULP, LAMMPS, all the major DFT codes
+
+languages: all the major ones, listed on my CV. 
+
+	"The incumbent will be expected to rapidly get up to speed in disciplines outside of his or her area of expertise."
+
+I have conducted research in 3 major fields:
+
+undergrad cerebral aneurysms study
+
+MS turbulence
+
+PhD nanoscale transport
+
+additionally, I have studied genomics using BioJava package, assisted Wife with courses during her MS Bioinformatics.
+
+	"The position requires a combination of traditional HPC skills (e.g. parallel computing using MPI, OpenMP and/or Pthreads; languages such as C/C++, Fortran, MATLAB, Perl and/or Python)"
+
+I have used MPI with C++ and Fortran, MPI and OpenMP with Python multiprocessing. Hoping to add parallel eig soln 
+using PETSc to a wrapped version of LAMMPS and GULP. 
+
+
+	"and skills required for data intensive computing (Hadoop or other MapReduce implementations and related technologies; R, KNIME, Weka or other languages/tools used for analysis of large data sets)."
+
+I have recently learned Hadoop to try and incorporate some data mining analysis into my PhD thesis (code usage statisics, data usage statistics, etc). I would consider myself very proficient in Matlab, which I hear is similar to R.  I would like to become more familiar with R as it is open-source.
+
+	"The incumbent should have a strong background in one or more fields of science, engineering or other technical disciplines."
+
+I would consider myself to be proficient in most fields of condensend-matter physics. Things that don't show up on my CV:
+
+Continuum mechanics: linear and non-linear elasticity, solid mechanics, microfluidics  
+
+I have some biological and genomic background from my wife's education and my undergrad work. I have a little experience with relativity, QFT, , and particle physics from my own personal studies.
+
+	"The primary responsibilities of the position include: (1) Port and optimize data-intensive applications to run effectively on Gordon and other SDSC systems. (2) Identify and develop benchmarks that can be used to compare the performance of Gordon to other HPC systems and guide future hardware acquisition decisions. "
+
+I have maintained my research group's personal Beoewulf cluster (96 cpu) for the past 4 years (CentOS, cluster management, PBS Torque, writing, compiling code, bechmarking, etc).
+
+I have maintained my research group's presence on our mid-level resource (1000 cpu, Torque/Maui, Infiniband, CentOS) for past 4 years.
+
+I have maintained the only presence on the massive-scale (100K cpu, SUSE, Infiniband, ) clusters from DoD.
+
+http://www.erdc.hpc.mil/docs/diamondUserGuide.html
+
+
+	"(3) Work closely with the Gordon Applications Lead, Manager of User Services, and EOT Director to develop and deliver advanced training, documentation, and workshops that are targeted at data intensive user communities."
+
+This is a passion of mine, I have been the go-to for technical advice in my research group the past 4 years.  I am 1 year removed from both old crop and new crop.  Advisor is hands-off about computing.  I initiated using scripting langauges (both matlab and python as well as shell), using open-source (LAMMPS, GULP) and contributions to those packages, and code revision tools Git and Github, Dropbox, open-source Latex tools
+
+	"(4) Participate in general outreach efforts to new user communities that may benefit by Gordon, including those in areas such as genomics, social sciences, and humanities. Serve as the primary representative to one or more of these new communities. "
+
+I have demonstated a strong desire to learn about new fields of science, and my diverse background allows me to do so effectively. 
+
+	"(5) Work with SDSC database and data mining researchers to implement large scale database and data mining applications on Gordon. "
+
+I have only recently learned Hadoop, but I am very interested in learning more, and extending my skills with statististical analysis to large amounts of already existing data (low-hanging fruit!).
+
+
+	"(6) Work with the XSEDE community to ensure that Gordon is correctly represented in XSEDE user information resources."
+
+
+	"Travel may be required. Some after hours work can be expected for upgrades, planned or emergency systems outages and critical proposal or meeting deadlines."
+
+I have been working non-stop on my graduate work for the past 6 years...I'm used to that
+
+
+	"Bachelor's Degree in mathematics, statistics or computer science or equivalent combination of education and experience. Advanced degree preferred."
+
+I have extensive math experience my whole engineering education (10 years +). I have extensive statistical analysis experience from MS and PhD (peer-reviewed publications). I have extensive computer science experience from PhD. 
+
+
+	"Expert knowledge in at least one domain science (astrophysics, geophysics, computational chemistry etc) with a strong parallel computing aspect."
+
+Not sure if I am an expert, but I am highly-proficient in Fluid mechanics, turbulence, non-linear dynamics and chaos,  thermal transport, nanoscale transport phenomena, molecular dynamics, quantum chemistry. I have performed parallel computations for most of these fields. 
+
+	"Experience with MapReduce implementations (e.g. Hadoop) and related technologies (e.g. HBase, Hive, Pig)"
+
+I have recently learned Hadoop and am excited to learn more, and qucikly!
+
+
+	"Expert knowledge of at least one scientific programming language (FORTRAN, C/C++, Python, Perl, MATLAB) with an emphasis on parallel computing."
+
+Again, not sure if I am an expert, but I am highly-proficient in matlab, proficient in Fortran/Python/C++, well-versed in Perl and Java
+
+	"Expert knowledge of distributed memory parallel programming using Message Passing (MPI) and shared memory parallelization using OpenMP and/or Pthreads"
+
+Would not claim to be an expert, but have successfully implemented MPI in C++, Fortran and Python, and OpenMP in Python.  Am excited to become an expert!
+
+
+Gordon
+
+	"Designed for data and memory intensive applications that
+donʼt run well on traditional distributed memory machines"
+
+	Large shared memory requirements
+Serial or threaded (OpenMP, Pthreads)
+Limited scalability
+High performance data base applications
+Random I/O combined with very large data sets
+
+
+"	3D Torus Interconnect
+
+	Maximum of six hops to get
+from one node to furthest
+node in cluster"
+
+So, for a calculation which is taking up 1/4 of the resources, the distribution is not so critical??
+
+"	Flash drives have a number of advantages over hard disks in terms
+of performance, reliability, and range of operating conditions"
+
+I actually worked my first year of PhD on PCM materials 
+
+
+"Introduction to vSMP"
+
+VSMP (virtual symmetric multiprocessing) is a method of SMP (symmetric multiprocessing) in which two or more virtual processors are mapped inside a single virtual machine or partition. This makes it possible to assign multiple virtual processors to a virtual machine on any host having at least two logical processors. VSMP can be employed in conjunction with multithreading, which is the ability of a program to concurrently manage multiple user requests.
+
+In SMP, multiple programs are run by two or more processors that share a common OS (operating system) and memory. A single copy of the OS is in charge of all the processors. SMP systems are considered better than MPP (massively parallel processing) systems for online transactions in which many users are likely to access the same database at the same time.
+
+Gordon's Software
+
+"adf
+amber
+gamess
+gaussian
+gromacs
+lammps
+namd
+nwchem"
+
+"distributed 
+computing
+globus
+Hadoop
+MapReduce"
+
+"compilers/languages
+gcc, intel, pgi
+MATLAB, Octave, R
+PGAS (UPC)
+DB2, PostgreSQL"
+
+"libraries
+ATLAS
+BLACS
+fftw
+HDF5
+Hypre
+SPRNG
+superLU"
+
+
+Sinkovits work
+
+http://pharmacy.ucsd.edu/faculty/Gilson.shtml
+
+Fast conformal search techniques
+
+How many publications came from your work as HPC lead? last one in 2011.  Do you have any publications in the works?
+
+
+
+

@@ -1,0 +1,59 @@
+
+•	B.S./M.S./PhD degree in Computer Science, Software Engineering, Computer/Electrical Engineering (with strong software emphasis), or equivalent.
+
+PhD
+
+•	Proficiency in C/C++ and program parallelization.
+
+I have written C++ with MPI, Fortran with MPI, and MPI and OpenMP with Python
+
+•	Expertise in performance optimization.
+
+I have compiled all code for group on our clusters (openmpi vs intel mpi), optimization with different 
+optimization levels, different fft libs, code profiling with matlab and python, 
+
+•	An understanding of algorithmic development focused on performance issues.
+
+Have learned vectorization in Matlab, Python. Extended that to C++ and Fortran by calling 
+external libs. Also, algorithm tuning, big speed-up after an initial trial run.
+
+Have helped write in-house C++ code which uses ATLAS libraries and compared with 
+matlab (optimized). 
+
+•	Excellent technical communication skills.
+
+11 peer-reviewed publications
+15 conference presentations (8 as speaker)
+
+History
+
+The first success of Spiral in the commercial sector was the automatic production of about 
+4000 compute kernel functions for Intel's performance library IPP since version 6.0. The 
+functions are faster than any equivalent hand-written code and take full advantage of SIMD 
+instruction sets.
+
+What is SpiralGen's value proposition?
+Our software is extremely optimized using our internal technology Spiral. Only few, highly skilled developers can produce such code.
+We deliver software cheaper than can be developed in house.
+We enable faster time-to-market by transitioning to new processors faster than possible with traditional human development.
+
+
+
+
+QUESTIONS
+
+spiral program generation system
+Function (e.g., "DFT")
+SPL = signal processing language, what is \Epsilon-SPL?
+
+
+
+
+
+Highlight
+About 4000 signal processing functions produced by SpiralGen's program generation technology Spiral are incorporated into Intel's commercial library IPP since version 6.0. The functions make full use of SSE and AVX instruction sets and are highly tuned to Intel's processor lines to achieve the highest performance possible to date.
+
+
+
+
+
