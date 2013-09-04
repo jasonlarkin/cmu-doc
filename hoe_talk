@@ -1,17 +1,30 @@
-
 1) exponential trends in technological advances
 
 1) inefficiencies in rate constants
+
 
 1) computational complexity and entropy
 
 1) principle of computational equivalence
 
+
 1) computer language vs human conversation
 
 1) math equation -> executable code
 
-math equation 
-(latex representation?)
+Visulatization (PDF, etc)
+->
+math equation (Latex)
+->
+interpreted language (Matlab, Python, Spiral/SPL)
+->
+compiled language (C/C++, Fortran)
+->
+lower-level (assembly language 68HC11) https://www.clear.rice.edu/elec201/Book/6811_asm.html
+-> 
+executable code (binary)
 
--> executable code
+
+
+
+
