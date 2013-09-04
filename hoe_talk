@@ -1,0 +1,30 @@
+1) computer language vs human conversation
+
+1) math equation -> executable code
+
+Visulatization (PDF, etc)
+->
+math equation (Latex)
+->
+interpreted language (Matlab, Python, Spiral/SPL)
+->
+compiled language (C/C++, Fortran)
+->
+lower-level (assembly language 68HC11) https://www.clear.rice.edu/elec201/Book/6811_asm.html
+-> 
+executable code (binary)
+
+1) exponential trends in technological advances
+
+1) inefficiencies in rate constants: Moore's law period doubles, parallel computing
+poor scalings of physical laws, efficient computation (paper on a laptop)
+
+1) computational complexity and entropy: describing all bits in the universe versus 
+http://physics.aps.org/story/v9/st27
+versus 
+modeling just enough important ones
+
+1) principle of computational equivalence: 
+
+
+
