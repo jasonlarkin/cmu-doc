@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.4.23)  16 SEP 2013 22:06
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.4.23)  17 SEP 2013 08:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -334,20 +334,20 @@ Package rerunfilecheck Info: File `jasonlarkin_cv.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 174.
  ) 
 Here is how much of TeX's memory you used:
- 5526 strings out of 495059
- 79159 string characters out of 3182030
+ 5525 strings out of 495059
+ 79149 string characters out of 3182030
  167755 words of memory out of 3000000
- 8674 multiletter control sequences out of 15000+200000
+ 8673 multiletter control sequences out of 15000+200000
  22179 words of font info for 46 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 29i,4n,32p,368b,320s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 29i,4n,32p,453b,320s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf
 -dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/urw/helvetic/uhvbo8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/h
 elvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr
 o8a.pfb>
-Output written on jasonlarkin_cv.pdf (1 page, 46867 bytes).
+Output written on jasonlarkin_cv.pdf (1 page, 46922 bytes).
 PDF statistics:
  64 PDF objects out of 1000 (max. 8388607)
  55 compressed objects within 1 object stream
