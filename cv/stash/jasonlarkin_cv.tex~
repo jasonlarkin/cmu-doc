@@ -2,7 +2,7 @@
 \usepackage{fullpage}
 \usepackage{amsmath}
 \usepackage{amssymb}
-\usepackage{hyperref}
+\usepackage[dvipdfm,hidelinks,colorlinks=true]{hyperref}
 \usepackage{helvet}
 \usepackage[margin=0.75in]{geometry}
 \renewcommand{\familydefault}{\sfdefault}
@@ -46,11 +46,11 @@
 \vspace*{-44pt}
 
 \contact{\href{http://jasonlarkin.github.io}{Jason M Larkin}}
-{4763 Sherwood Dr, Pittsburgh PA 15236 $\bullet$ (412) 398-8813 $\bullet$ \href{mailto:jasonlarkin84@gmail.com}{jasonlarkin84@gmail.com} $\bullet$ 
+{42 Lintel Dr, McMurray PA 15317 $\bullet$ (412) 398-8813 $\bullet$ \href{mailto:jasonlarkin84@gmail.com}{jasonlarkin84@gmail.com} $\bullet$ 
 \href{http://jasonlarkin.github.io}{http://jasonlarkin.github.io} }
 
 \header{Career Overview and Objective}
-I have extensive experience performing experimental and numerical studies in condensed matter physics with an emphasis on nanoscale transport, fluid dynamics, and nonlinear analysis. My interests include atomistic and multi-scale modeling, multi-language development for applications in high-performance parallel computing, and open-source collaboration to improve the way research is performed and the way results are disseminated.
+I have extensive experience performing experimental and numerical studies in condensed matter physics with an emphasis on nanoscale transport, fluid dynamics, and nonlinear analysis. My interests include complex systems modeling, multi-language development for applications in high-performance parallel computing, and open-source collaboration to improve the way research is performed and results are disseminated.
 
 \header{Education}
 
@@ -59,7 +59,7 @@ I have extensive experience performing experimental and numerical studies in con
 \area{
 Thesis: \href{http://jasonlarkin.github.io/projects-phd.html}
 {Thermal Modeling of Disordered Materials.}}
-{Numerically investigated thermal properties of crystal alloys, glasses, and organic materials using classical and \emph{ab initio}-based atomistic techniques.} 
+{Numerically investigated thermal properties of crystal alloys, glasses, and organic materials using classical and \href{http://en.wikipedia.org/wiki/Ab_initio_quantum_chemistry_methods}{\emph{ab initio}}-based atomistic techniques.} 
 
 \area{Coursework:}
 {
@@ -83,9 +83,57 @@ quantum and statistical physics $\cdot$ turbulence $\cdot$ chaos and nonlinear p
 
 \area{
 Research: }
-{Used Finite Element Analysis to design a model arterial bifurcation for \emph{in vivo} study.}
+{Used \href{http://en.wikipedia.org/wiki/Finite_element_method}{FEM} to design a model arterial bifurcation for \emph{in vivo} study.}
+
+\schoolwithcourses{Steel Center AVTS}{Jefferson Hills, PA}{\href{http://en.wikipedia.org/wiki/Computer-aided_design}{CADD} Certification, 2002 GPA: 3.80/4.00}
+\area{
+Coursework: }
+{Trained in \href{http://en.wikipedia.org/wiki/Computer-aided_design}{CAD} using \href{http://www.autodesk.com/}{Autodesk}'s \href{http://www.autodesk.com/products/autocad/overview}{AutoCAD} (15.6) and \href{http://www.autodesk.com/products/autodesk-inventor-family/overview}{Inventor} (5.3) 
+to produce machined products by \href{http://en.wikipedia.org/wiki/Computer-aided_manufacturing}{CAM} and human machining.  }
 
 \header{Experience}
+
+\employer{\href{http://spiralgen.com/}{SpiralGen, Inc.}}{2013-2014}{Software Engineer}
+
+\textbf{\href{http://spiral.net/}{Spiral}}: tool to create automatically optimized/platform-tuned digital signal processing and numerical kernels.
+
+%\header{Projects}
+\begin{achievements}
+
+\item Used integration work for \href{http://www.darpa.mil/default.aspx}{DARPA} projects (\href{http://www.darpa.mil/Our_Work/I2O/Programs/High-Assurance_Cyber_Military_Systems_(HACMS).aspx}{HACMS}, \href{http://www.darpa.mil/Our_Work/MTO/Programs/Power_Efficiency_Revolution_for_Embedded_Computing_Technologies_(PERFECT).aspx}{PERFECT}) to help create commercial version of the \href{http://spiral.net/}{Spiral} tool. 
+
+- Designed and maintained \href{http://jenkins-ci.org/}{Jenkins} 
+\href{http://en.wikipedia.org/wiki/Continuous_integration}{CI}  
+environment for build/testing.
+
+- Helped develop \href{http://nsis.sourceforge.net/Main_Page}{NSIS} installer for \href{http://spiral.net/}{Spiral} tool and integration with \href{http://jenkins-ci.org/}{Jenkins} 
+\href{http://en.wikipedia.org/wiki/Continuous_integration}{CI}.
+
+- Contributed static and context-sensitive help to \href{http://spiral.net/}{Spiral}'s 
+\href{http://www.eclipse.org/}{Eclipse} plug-in.
+
+- Created  native (C/C++/Fortran) and interpreted (\href{http://cython.org/}{Cython} and \href{http://www.mathworks.com/help/matlab/ref/mex.html}{Mex}) example implementations of \href{http://spiral.net/}{Spiral}-generated code. 
+
+- Helped develop \href{https://wiki.hh.se/wg211/images/e/e0/M13Franchetti.pdf}{HCOL} implementations of robot control 
+kernels (\href{http://en.wikipedia.org/wiki/PID_controller}{PID}, 
+\href{http://en.wikipedia.org/wiki/Euler_method}{Euler}) for \href{http://www.darpa.mil/Our_Work/I2O/Programs/High-Assurance_Cyber_Military_Systems_(HACMS).aspx}{HACMS} project.  
+
+\item \textbf{\href{http://www.darpa.mil/Our_Work/I2O/Programs/High-Assurance_Cyber_Military_Systems_(HACMS).aspx}{HACMS}:}
+\href{http://www.darpa.mil/default.aspx}{DARPA} project to create technology for the construction of high-assurance cyber-physical systems. 
+
+- Integrated and tested \href{http://spiral.net/}{Spiral}-generated, high-assurance code with simulated \href{http://www.cyberbotics.com/}{Webots} and physical \href{http://www.blackirobotics.com/}{Black-i Landshark} robots using \href{http://www.ros.org/}{ROS}. 
+
+- Developed integrated \href{http://www.darpa.mil/NewsEvents/Releases/2014/05/21.aspx}{Pentagon demo} for HACMS using \href{http://www.ros.org/}{ROS}, \href{http://www.cyberbotics.com/}{Webots}, and \href{https://wiki.python.org/moin/TkInter}{TkInter}. 
+
+- Developed an automated and virtualized \href{http://www.ros.org/}{ROS} test system for the Spiral-generated robot controller kernels.  
+
+- Collaborated with a large/diverse team of labs (\href{http://www.hrl.com/}{HRL}, \href{http://www.sri.com/}{SRI}) and universities (\href{http://www.cmu.edu/}{CMU}, \href{http://web.mit.edu/}{MIT}, \href{http://www.princeton.edu/}{Princeton}, \href{http://illinois.edu/}{UIUC}, \href{http://www.upenn.edu/}{UPenn}). 
+
+\item \textbf{\href{http://www.darpa.mil/Our_Work/MTO/Programs/Power_Efficiency_Revolution_for_Embedded_Computing_Technologies_(PERFECT).aspx}{PERFECT}:}
+\href{http://www.darpa.mil/default.aspx}{DARPA} project to seek revolutionary approaches and to research and develop the technologies and techniques to provide the power efficiency required to enable embedded computing systems. 
+
+- Helped develop an installable version of the \href{http://spiral.net/}{Spiral} tool with an \href{http://www.eclipse.org/}{Eclipse} plug-in to generate platform-optimized \href{http://en.wikipedia.org/wiki/Fast_Fourier_transform}{FFTs}. 
+\end{achievements}
 
 \employer{Carnegie Mellon University}{2010-2012}{Teaching Assistant-Heat Transfer}
 	\begin{achievements}
@@ -105,32 +153,39 @@ Research: }
 \employer{Precision Therapeutics}{2006-2007}{Intern-Technology Development}
 	\begin{achievements}
 	\item Worked with team of software developers and laboratory equipment specialists.
-	\item Used CADD to design and fabricate components of optical microscopes and laboratory automation controls. 
+	\item Used \href{http://en.wikipedia.org/wiki/Computer-aided_design}{CAD} to fabricate components of optical microscopes and laboratory automation controls. 
 	\end{achievements}
 
 \header{Skills}
 \begin{achievements}
 
-\item \textbf{Computing Languages:} Matlab, Fortran, Python, C/C++, Java, \LaTeX, Shell, Perl, Markdown, HTML.
+\item \textbf{Computing Languages:} Matlab, Python, C/C++, Fortran, Java, \LaTeX, Shell, Perl, Markdown, HTML, CSS mixed-language development (\href{http://cython.org/}{Cython}, \href{http://www.mathworks.com/help/matlab/ref/mex.html}{Mex}).
 
-\item \textbf{High-Performance Computing:} linux/unix cluster administration/computing, parallel computation (MPI, OpenMP), mixed-language development, open-source development (Git, \href{http://github.com/jasonlarkin}{Github}, \href{http://arxiv.org/find/physics/1/au:+Larkin_J/0/1/0/all/0/1}{arXiv}).
+\item \textbf{Software Development:} \href{http://en.wikipedia.org/wiki/Software_configuration_management}{SCM} (\href{http://subversion.apache.org/}{svn}, \href{http://git-scm.com/}{git}, \href{http://jenkins-ci.org/}{Jenkins}), \href{http://www.gnu.org/software/make/}{make}/\href{http://www.cmake.org/}{cmake}, \href{http://www.visualstudio.com/}{Visual Studio}/\href{http://en.wikipedia.org/wiki/MSBuild}{MSBuild}, \href{http://www.eclipse.org/}{Eclipse}, \href{http://nsis.sourceforge.net/Main_Page}{NSIS}. 
 
-\item \textbf{General Computing:} Linux/Unix, Mac OS, Windows, Microsoft Office.
+\item \textbf{Compilers/Compilation}: \href{http://gcc.gnu.org/}{GNU}, \href{https://software.intel.com/en-us/c-compilers}{Intel C/C++}, Visual Studio, \href{http://www.mingw.org/}{MinGW}, \href{http://cython.org/}{Cython}, \href{http://www.mathworks.com/help/matlab/ref/mex.html}{Mex}, \href{http://ant.apache.org/}{Ant}.
 
-\item \textbf{Modeling:} atomistic simulation, quantum chemistry, nanoscale transport, statistical and nonlinear systems.
+\item \textbf{High-Performance Computing:} \href{http://en.wikipedia.org/wiki/Beowulf_cluster}{Linux/Unix cluster administration/computing}, parallel computation (\href{http://en.wikipedia.org/wiki/Message_Passing_Interface}{MPI}, \href{http://en.wikipedia.org/wiki/OpenMP}{OpenMP}), \href{http://en.wikipedia.org/wiki/Streaming_SIMD_Extensions}{SSE}/\href{http://en.wikipedia.org/wiki/Advanced_Vector_Extensions}{AVX} vectorization.
 
-\item \textbf{Hardware:} general computing, optics/lasers, DI/DO AI/AO interfaces, simple automation, machining, circuitry. 
+\item \textbf{Cloud Computing:} \href{http://aws.amazon.com/}{Amazon Web Services}, Virtualization (\href{https://www.virtualbox.org/}{VirtualBox}, \href{http://www.vmware.com/}{VMWare}).
+
+\item \textbf{General Computing:} Linux/Unix OS (Ubuntu, Red Hat, CentOS, Mac), Windows OS, Microsoft Office, Libre/Open Office, \href{http://www.gimp.org/}{GIMP}.
+
+\item \textbf{Open-Source Development:} \href{http://github.com/jasonlarkin}{Github}, \href{http://projects.ivec.org/gulp/}{GULP}, \href{http://lammps.sandia.gov/}{LAMMPS}, \href{http://www.ros.org/}{ROS}, \href{http://arxiv.org/find/physics/1/au:+Larkin_J/0/1/0/all/0/1}{arXiv}.
+
+\item \textbf{Modeling:} atomistic simulation, quantum chemistry, nanoscale transport, statistical and nonlinear analysis, computational fluid dynamics. 
+
+\item \textbf{Hardware:} optics/lasers, DI/DO AI/AO interfaces, simple automation, machining, circuitry, simple robotics control.
 \end{achievements}
 
 \header{Projects}
 \begin{achievements}
-
 \item \textbf{\href{http://ntpl.me.cmu.edu/research.html}{Quantum Mechanics-Driven Prediction of Nanostructure Thermal Conductivity}:}
 served as investigator under the 
-\href{http://www.wpafb.af.mil/afrl/afosr/}{AFOSR} with collaborators at Carnegie Mellon and Univ. of Pitt., performing 
+\href{http://www.wpafb.af.mil/afrl/afosr/}{AFOSR} with collaborators at Carnegie Mellon and University of Pittsburgh, performing 
 calculations on the \href{http://www.hpcmo.hpc.mil/cms2/index.php}{DOD's HPCMP}.
 
-\item \textbf{\href{https://github.com/jasonlarkin/disorder}{disorder}:} a comprehensive repository of open-source code and data from my PhD thesis, hosted on Github.
+\item \textbf{\href{https://github.com/jasonlarkin/disorder}{disorder}:} a comprehensive repository of open-source code and data from my PhD thesis, hosted on \href{http://github.com/jasonlarkin}{Github}.
 
 \item \textbf{\href{https://github.com/ntpl/ntpy}{ntpy}:} created this open-source  collaborative effort between members of \href{http://ntpl.me.cmu.edu/}{NTPL} and \href{http://www.mie.utoronto.ca/labs/atoms/}{University of Toronto}.
 
@@ -145,7 +200,7 @@ calculations on the \href{http://www.hpcmo.hpc.mil/cms2/index.php}{DOD's HPCMP}.
 \begin{achievements}
 \item "Origin of the Exceptionally Low Thermal Conductivity of Fullerene Derivative  PCBM Films", 
 \href{http://jasonlarkin.github.io/projects-phd-pcbm.html}{(in progress).}
-\item "Decorrelating a Compressible Turbulent Flow: an Experiment", \href{http://pre.aps.org/abstract/PRE/v82/i1/e016301}{Phys. Rev. E 82, 016301 (2010).}
+\item "Decorrelating a Compressible Turbulent Flow: an Experiment", \href{http://pre.aps.org/abstract/PRE/v82/i1/e016301}{Physical Review E 82, 016301 (2010).}
 \end{achievements}
 
 \header{\href{http://jasonlarkin.github.io/pres.html}{Presentations} (selected, 15 total)}
