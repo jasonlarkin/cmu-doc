@@ -47,7 +47,7 @@
 
 \contact{\href{http://jasonlarkin.github.io}{Jason M Larkin}}
 {\href{mailto:jasonlarkin84@gmail.com}{jasonlarkin84@gmail.com} $\bullet$ 
-\href{http://jasonlarkin.github.io}{http://jasonlarkin.github.io} }
+\href{http://jasonlarkin.github.io}{http://jasonlarkin.github.io} $\bullet$ \textbf{Note: }\href{https://github.com/jasonlarkin/cmu-doc/raw/master/cv/stash/jasonlarkin_cv.pdf}{Red are hyperlinks in digital copy}}
 
 \header{Career Overview and Objective}
 I have extensive experience performing experimental and numerical studies in condensed matter physics with an emphasis on nanoscale transport, fluid dynamics, and nonlinear analysis. My interests include complex systems modeling, multi-language development for applications in high-performance parallel computing, and open-source collaboration to improve the way research is performed and results are disseminated.
@@ -169,7 +169,7 @@ kernels (\href{http://en.wikipedia.org/wiki/PID_controller}{PID},
 \item \textbf{High-Performance Computing:} \href{http://en.wikipedia.org/wiki/Beowulf_cluster}{Linux/Unix cluster administration/computing}, parallel computation (\href{http://en.wikipedia.org/wiki/Message_Passing_Interface}{MPI}, \href{http://en.wikipedia.org/wiki/OpenMP}{OpenMP}), \href{http://en.wikipedia.org/wiki/Streaming_SIMD_Extensions}{SSE}/\href{http://en.wikipedia.org/wiki/Advanced_Vector_Extensions}{AVX} vectorization.
 
 \item \textbf{Cloud Computing:} \href{http://aws.amazon.com/}{Amazon Web Services}, 
-\href{https://c9.io/}{Cloud9} Virtualization (\href{https://www.virtualbox.org/}{VirtualBox}, \href{http://www.vmware.com/}{VMWare}).
+\href{https://c9.io/}{Cloud9}, Virtualization (\href{https://www.virtualbox.org/}{VirtualBox}, \href{http://www.vmware.com/}{VMWare}).
 
 \item \textbf{General Computing:} Linux/Unix OS (Ubuntu, Red Hat, CentOS, Mac), Windows OS, Microsoft Office, Libre/Open Office, \href{http://www.gimp.org/}{GIMP}.
 
